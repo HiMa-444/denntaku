@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="dentaku.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" readonly value="0" class="display" id="display">
+      <div>
+        <div class="group">
+          <button onclick="num(this.innerHTML)">7</button>
+          <button onclick="num(this.innerHTML)">8</button>
+          <button onclick="num(this.innerHTML)">9</button>
+          <button onclick="sym(this.innerHTML)">+</button>
+        </div>
+        <div class="group">
+          <button onclick="num(this.innerHTML)">4</button>
+          <button onclick="num(this.innerHTML)">5</button>
+          <button onclick="num(this.innerHTML)">6</button>
+          <button onclick="sym(this.innerHTML)">-</button>
+        </div>
+        <div class="group">
+          <button onclick="num(this.innerHTML)">1</button>
+          <button onclick="num(this.innerHTML)">2</button>
+          <button onclick="num(this.innerHTML)">3</button>
+          <button onclick="sym(this.innerHTML)">×</button>
+        </div>
+        <div class="group">
+          <button onclick="num(this.innerHTML)">0</button>
+          <button onclick="num(this.innerHTML)">.</button>
+          <button onclick="equal(this.innerHTML)">=</button>
+          <button onclick="sym(this.innerHTML)">÷</button>
+        </div>
+        <button class="c" onclick="C(this.innerHTML)">c</button>
+      </div>
+    </div>
+    <script src="dentaku.js"></script>
+  </body>
+</html>
